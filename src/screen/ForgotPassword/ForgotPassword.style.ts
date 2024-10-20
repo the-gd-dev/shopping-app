@@ -6,8 +6,7 @@ export const styles = StyleSheet.create({
   container: {
     height: '100%',
   },
-  formTitleDesc: {marginBottom: 35},
-
+  formTitleDesc: {marginBottom: 20},
   heading: {
     color: colors.blackDark,
     fontWeight: '500',
@@ -15,7 +14,7 @@ export const styles = StyleSheet.create({
   },
   desc: {
     fontSize: fontScale(16),
-    marginTop: 10,
+    marginTop: 4,
     color: colors.grey_dark,
   },
   bottomText: {

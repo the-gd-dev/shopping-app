@@ -1,0 +1,12 @@
+export const logoTitle = require('./logo-title.png');
+export const emailIcon = require('./email.png');
+export const passwordIcon = require('./password.png');
+export const faceIdIcon = require('./face-id.png');
+export const fingerPrintIcon = require('./fingerprint-icon.png');
+export const facebookIcon = require('./facebook.png');
+export const googleIcon = require('./google.png');
+export const showPasswordIcon = require('./show-password.png');
+export const hidePasswordIcon = require('./hide-password.png');
+export const userNameIcon = require('./user-name.png');
+export const arrowRight = require('./arrow-right.png');
+export const arrowLeft = require('./arrow-left.png');

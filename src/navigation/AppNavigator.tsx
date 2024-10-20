@@ -1,7 +1,7 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 import {createStackNavigator} from '@react-navigation/stack';
-import {Login} from '../screen';
+import {ForgotPassword, Login, Register} from '../screen';
 import {NavigationContainer} from '@react-navigation/native';
 
 const Stack = createStackNavigator();
@@ -15,6 +15,14 @@ const AppNavigator = () => {
           headerShown: false,
         }}>
         <Stack.Screen name="Login" component={Login} />
+        <Stack.Screen name="Register" component={Register} />
+        <Stack.Screen
+          options={{
+            title: 'Forgot Password',
+          }}
+          name="ForgotPassword"
+          component={ForgotPassword}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
